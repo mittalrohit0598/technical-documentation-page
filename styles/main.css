@@ -1,0 +1,128 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: ;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: ;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    border-right: 5px solid #000000;
+    height: 100%;
+}
+
+header {
+    font-size: 3.5rem;
+    padding-bottom: 10px;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 380px;
+}
+
+ul {
+    list-style: disc;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0px;
+    font-size: 1.8rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: ;
+}
+
+#navbar li {
+    padding: 10px 0px;
+    width: 100%;
+    border-top: 2px solid black;
+    position: relative;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+#last-link {
+    border-bottom: 2px solid black;
+}
+
+code {
+    font-family: monospace;
+    background-color: silver;
+    font-size: 1.3rem;
+    word-break: normal;
+    word-wrap: normal;
+    white-space: pre-line;
+    position: relative;
+}
+
+p {
+    padding: 10px 0;
+}
+
+.main-section {
+    padding: 20px 0;
+}
+
+#Anatomy_of_an_HTML_element img {
+    width: 60vw;
+}
+
+#Attributes img {
+    width: 60vw;
+}
+
+@media (max-width: 1000px) {
+    #navbar ul {
+        height: 270px;
+    }
+    
+    #navbar {
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0 5vw;
+        width: 90%;
+        border: 2px solid #000000;
+        max-height: 331px;
+    }
+
+    #last-link {
+        border: none;
+    }
+
+    #main-doc {
+        position: relative;
+        margin: 0;
+        padding: 0 10px;
+        margin-top: 350px;
+    }
+
+    #Anatomy_of_an_HTML_element img {
+        width: 90vw;
+    }
+    
+    #Attributes img {
+        width: 90vw;
+    }    
+
+    #Empty_elements img {
+        width: 30vw;
+    }
+}
