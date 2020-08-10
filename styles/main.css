@@ -3,10 +3,8 @@ html {
 }
 
 body {
-    background-color: ;
     font-size: 1.6rem;
     line-height: 1.5;
-    color: ;
     text-align: left;
     font-family: sans-serif;
 }
@@ -21,8 +19,9 @@ body {
 }
 
 header {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     padding-bottom: 10px;
+    font-weight: bold;
 }
 
 #main-doc {
@@ -42,7 +41,6 @@ ul {
     font-size: 1.8rem;
     overflow-y: auto;
     overflow-x: hidden;
-    background-color: ;
 }
 
 #navbar li {
